@@ -1,0 +1,26 @@
+{
+  "torizon_psswd": "959798",
+  "torizon_login": "torizon",
+  "torizon_ip": "192.168.10.111",
+  "torizon_ssh_port": "22",
+  "host_ip": "192.168.10.112",
+  "torizon_workspace": "${workspaceFolder}",
+  "torizon_debug_port": "",
+  "torizon_debug_ssh_port": "2223",
+  "torizon_debug_port2": "",
+  "torizon_debug_port3": "",
+  "torizon_gpu": "-imx8",
+  "torizon_arch": "aarch64",
+  "wait_sync": "1",
+  "torizon_run_as": "torizon",
+  "torizon_app_root": "/home/torizon/app",
+  "tcb.packageName": "AvaloniaUITheSeriesGTKMVVM",
+  "tcb.version": "3.8.1",
+  "torizon.gpuPrefixRC": true,
+  "dotnet.preferCSharpExtension": false,
+  "omnisharp.useModernNet": true,
+  "dotnet.server.useOmnisharp": false,
+  "docker.environment": {
+    "DOCKER_HOST": "tcp://192.168.10.111:2375"
+  }
+}
