@@ -72,6 +72,8 @@ RUN apt-get -q -y update && \
 
 RUN apt-get -y update && apt-get install -y --no-install-recommends \
     # ADD YOUR PACKAGES HERE
+    #FL mesa-utils contains glxinfo to know is direct rendering (hardware acceleration) is enabled : glxinfo | grep 'direct rendering:'
+    mesa-utils \
 # DO NOT REMOVE THIS LABEL: this is used for VS Code automation
     # __torizon_packages_prod_start__
     # __torizon_packages_prod_end__
