@@ -1,19 +1,3 @@
-// using System;
-// using System.Diagnostics.CodeAnalysis;
-// using Avalonia;
-// using Avalonia.Controls.ApplicationLifetimes;
-// using Avalonia.Markup.Xaml;
-// using AvaloniaUITheSeriesGTKMVVM.Services;
-// using AvaloniaUITheSeriesGTKMVVM.ViewModels;
-// using AvaloniaUITheSeriesGTKMVVM.ViewModels.SplitViewPane;
-// using AvaloniaUITheSeriesGTKMVVM.Views;
-// // using CommunityToolkit.Extensions.DependencyInjection;
-// using CommunityToolkit.Mvvm.DependencyInjection;
-// using CommunityToolkit.Mvvm.Messaging;
-// using LiveChartsCore;
-// using LiveChartsCore.SkiaSharpView;
-// using Microsoft.Extensions.DependencyInjection;
-
 using System;
 using System.Diagnostics.CodeAnalysis;
 using Avalonia;
