@@ -27,13 +27,14 @@ dotnet restore
 ```
 
 ```xml
-<PackageReference Include="Avalonia" Version="11.0.10" />
-<PackageReference Include="Avalonia.Controls.ItemsRepeater" Version="11.0.10" />
-<PackageReference Include="Avalonia.Desktop" Version="11.0.10" />
-<PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.10" />
-<PackageReference Include="Avalonia.Fonts.Inter" Version="11.0.10" />
+<PackageReference Include="Avalonia" Version="11.1.0" />
+<PackageReference Include="Avalonia.Controls.DataGrid" Version="11.1.0" />
+<PackageReference Include="Avalonia.Controls.ItemsRepeater" Version="11.1.0" />
+<PackageReference Include="Avalonia.Desktop" Version="11.1.0" />
+<PackageReference Include="Avalonia.Themes.Fluent" Version="11.1.0" />
+<PackageReference Include="Avalonia.Fonts.Inter" Version="11.1.0" />
 <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
-<PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.10" />
+<PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.1.0" />
 <PackageReference Include="CommunityToolkit.Labs.Extensions.DependencyInjection" Version="0.1.240305-build.1659"/>
 <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
 <PackageReference Include="LiveChartsCore.SkiaSharpView.Avalonia" Version="2.0.0-rc2" />

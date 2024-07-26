@@ -7,6 +7,10 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="AvaloniaUITheSeriesGTKMVVM.Views.ButtonPageView"
              x:DataType="vm:ButtonPageViewModel">
+  <Design.DataContext>
+    <vm:ButtonPageViewModel />
+  </Design.DataContext>
+
   <ScrollViewer>
     <StackPanel Margin="20">
       <TextBlock Margin="0 20" FontSize="20" FontWeight="Bold">Buttons</TextBlock>
